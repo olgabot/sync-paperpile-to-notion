@@ -1,10 +1,10 @@
 const databases = {
   authors: {
-    databaseID: "1234567890abcdef1234567890abcdef",
-    articleRef: "Articles",
+    databaseID: "bf32a3bfe5474dc7895a6bf4dacf1a11",
+    articleRef: "Papers",
   },
   articles: {
-    databaseID: "abcdef1234567890abcdef1234567890",
+    databaseID: "fc172b9218e2438795c3c7b57a70610d",
     authorRef: "Authors",
   },
 }
@@ -46,9 +46,9 @@ const methods = {
 
 const icons = {
   book: ":books:",
-  "article-journal": ":blue_book:",
-  inproceedings: ":bookmark_tabs:",
-  "paper-conference": ":bookmark_tabs:",
+  "article-journal": ":scroll:",
+  inproceedings: ":newspaper:",
+  "paper-conference": ":rolled_up_newspaper:",
   proceedings: ":bookmark_tabs:",
 }
 
