@@ -9,7 +9,6 @@ jobs:
   sync-to-notion:
     name: "Sync Paperpile to Notion"
     runs-on: ubuntu-latest
-    concurrency:
     concurrency: 
       group: paperpile-sync
       cancel-in-progress: true
