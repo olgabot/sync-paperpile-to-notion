@@ -1,9 +1,9 @@
 const databases = {
-  authors: {
+  articles: {
     databaseID: "bf32a3bfe5474dc7895a6bf4dacf1a11",
     articleRef: "Papers",
   },
-  articles: {
+  authors: {
     databaseID: "fc172b9218e2438795c3c7b57a70610d",
     authorRef: "Authors",
   },
