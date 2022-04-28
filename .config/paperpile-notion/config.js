@@ -11,6 +11,11 @@ const databases = {
   },
 }
 
+const folders = {
+  prefix: "folder:",
+  colname: "Folders",
+}
+
 const status = {
   prefix: "status:",
   colname: "Status",
@@ -55,6 +60,6 @@ const icons = {
 }
 
 module.exports = {
-  databases, status, topics, fields, methods, icons,
+  databases, status, topics, fields, methods, icons, folders
 }
 
