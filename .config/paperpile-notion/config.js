@@ -1,12 +1,10 @@
 const databases = {
-  articles: {
-    // https://www.notion.so/bf32a3bfe5474dc7895a6bf4dacf1a11?v=9211afe0709d4a0682d16accbf9b41dd
-    databaseID: "bf32a3bfe5474dc7895a6bf4dacf1a11",
-    articleRef: "Papers",
-  },
   authors: {
-    // https://www.notion.so/fc172b9218e2438795c3c7b57a70610d?v=4ebd42948c284698b5b9487cec87b3dd
-    databaseID: "fc172b9218e2438795c3c7b57a70610d",
+    databaseID: "e099196d94ab4ff1913a597fff33e8a2",
+    articleRef: "Articles",
+  },
+  articles: {
+    databaseID: "bf32a3bfe5474dc7895a6bf4dacf1a11",
     authorRef: "Authors",
   },
 }
