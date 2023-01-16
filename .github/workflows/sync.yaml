@@ -30,6 +30,7 @@ jobs:
         with:
           path: "prev/"
         shell: "bash"
+        run: |
           git remote update
           git fetch
           git checkout HEAD~1
