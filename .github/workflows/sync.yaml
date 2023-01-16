@@ -27,10 +27,9 @@ jobs:
           fetch-depth: 2
 
       - name: "Retrieve old references"
+        with:
+          path: "prev/"
         shell: "bash"
-        run: |
-          pwd
-          cd prev
           git remote update
           git fetch
           git checkout HEAD~1
