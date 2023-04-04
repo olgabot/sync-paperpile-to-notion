@@ -28,6 +28,8 @@ jobs:
 
       - name: "Retrieve old references"
         shell: "bash"
+        with:
+          path: 'prev/'
         run: |
           git remote update 
           git fetch --all
