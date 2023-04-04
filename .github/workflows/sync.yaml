@@ -28,12 +28,12 @@ jobs:
 
       - name: "Retrieve old references"
         shell: "bash"
-        with:
-          path: 'prev/'
         run: |
+          pushd prev
           git remote update 
           git fetch --all
           git checkout HEAD~1
+          popd
       - name: "Run `paperpile-notion` sync"
         uses: "jmuchovej/paperpile-notion@latest"
         with:
